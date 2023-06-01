@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router-dom"
-import {ReactComponent as SpringLogo} from '../../assets/spring.svg'
+import {ReactComponent as SpringLogo} from 'assets/spring.svg'
 import './navigation-bar.styles.scss'
 
 const NavigationBar = () => {
