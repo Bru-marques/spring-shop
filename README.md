@@ -7,7 +7,8 @@ An e-commerce project
 - Add absolut paths;
 
 ##Features
-[] Login with Google credentials;
+[X] Login with Google credentials;
+[] Login with email and password;
 [] Add a item;
 [] List of item;
 [] Edit a item;
