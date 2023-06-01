@@ -1,22 +1,22 @@
 # spring-shop
 An e-commerce project
 
-#TODO:
+# TODO:
 - Upgrade the UX/UI;
 - Describe e-commerce features;
 - Add absolut paths;
 
-##Features
-[X] Login with Google credentials;
-[] Login with email and password;
-[] Add a item;
-[] List of item;
-[] Edit a item;
-[] Delete a item;
-[] Payment
-[] Logout
+## Features
+- [X] Login with Google credentials;
+- [] Login with email and password;
+- [] Add a item;
+- [] List of item;
+- [] Edit a item;
+- [] Delete a item;
+- [] Payment
+- [] Logout
 
-##Tech Stack
+## Tech Stack
 - React;
 - Sass;
 - Firebase Google authentication;
