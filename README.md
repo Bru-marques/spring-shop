@@ -8,13 +8,13 @@ An e-commerce project
 
 ## Features
 - [X] Login with Google credentials;
-- [] Login with email and password;
-- [] Add a item;
-- [] List of item;
-- [] Edit a item;
-- [] Delete a item;
-- [] Payment
-- [] Logout
+- [ ] Login with email and password;
+- [ ] Add a item;
+- [ ] List of item;
+- [ ] Edit a item;
+- [ ] Delete a item;
+- [ ] Payment
+- [ ] Logout
 
 ## Tech Stack
 - React;
