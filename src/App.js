@@ -1,14 +1,14 @@
 import { Route, Routes } from 'react-router-dom';
-import Home from 'routes/Home/home.component';
+import Authentication from 'routes/authentication/authentication.component';
+import Home from 'routes/home/home.component';
 import NavigationBar from 'routes/navigation-bar/navigation-bar.component';
-import SignIn from 'routes/SignIn/sign-in.component.tsx';
 
 const App = () => {
   return (
    <Routes>
-    <Route path='/' element={<NavigationBar/>}>
+    <Route path='/' element={ <NavigationBar /> }>
       <Route index element={ <Home /> } />
-      <Route path='sign-in' element={ <SignIn /> } />
+      <Route path='auth' element={<Authentication />}/>
     </Route>
    </Routes>
   );
