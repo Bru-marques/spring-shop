@@ -23,6 +23,9 @@ const SignInForm= () => {
         resetFormFields()
     }
          catch(error) {
+            if(error.code === 'auth/wrong-password' || error.code === 'auth/user-not-found') {
+                alert('Incorrect credentials')
+            }
            console.log('User creation encontered an error', error)
         }
     }
@@ -63,7 +66,7 @@ const SignInForm= () => {
                     value={password}/>
                 <div className='buttons-container'>
                     <Button type='submit'>Sign In</Button>
-                    <Button buttonType={'google'} onClick={SignInWithGoogle}>Google sign In</Button>
+                    <Button  type='button' buttonType={'google'} onClick={SignInWithGoogle}>Google sign In</Button>
                 </div>
             </form>
         </div>
