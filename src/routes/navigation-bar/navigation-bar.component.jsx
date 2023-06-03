@@ -7,13 +7,13 @@ import { signOutUser } from 'utils/firebase.utils'
 
 
 const NavigationBar = () => {
-    const { currentUser, setCurrentUser } = useContext(UserContext)
-    
+    const { currentUser } = useContext(UserContext)
+
     const signOutCallBack = async () => {
         await signOutUser()
-        setCurrentUser(null)
     }
 
+    console.log(currentUser)
     return (
         <>
             <div className="navigation">
