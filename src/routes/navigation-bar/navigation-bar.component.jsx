@@ -13,7 +13,6 @@ const NavigationBar = () => {
         await signOutUser()
     }
 
-    console.log(currentUser)
     return (
         <>
             <div className="navigation">
